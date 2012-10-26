@@ -1,0 +1,92 @@
+<!-- IRIX BASIC Codeless Language Module for BBEdit and TextWrangler-->
+<!-- Version 1.0 - Oct 17, 2012 -->
+<!-- Created by Andrew Hazelden andrew@andrewhazelden.com-->
+
+<!-- based upon the uBASIC.plist created by John Bussjaeger -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMLanguageCode</key>
+	<string>iBAS</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>IRIXBASIC</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.bas</string>
+			<key>BBLMCanResolveIncludeFiles</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		
+		<key>Identifier and Keyword Characters</key>
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz:@</string>
+	
+		<key>Open Strings 1</key>
+		<string>"</string>
+		<key>Close Strings 1</key>
+		<string>"</string>
+		
+		<key>Prefix for Functions</key>
+		<string>:</string>
+
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+		
+		<key>Open Line Comments</key>
+		<string>rem</string>
+	</dict>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>let</string>
+		<string>if</string>
+		<string>then</string>
+		<string>else</string>
+		<string>for</string>
+		<string>to</string>
+		<string>next</string>
+		<string>goto</string>
+		<string>gosub</string>
+		<string>return</string>
+		<string>end</string>
+		<string>print</string>
+		<string>not</string>
+		<string>and</string>
+		<string>or</string>
+		<string>endif</string>
+		<string>cls</string>
+		<string>clear</string>
+		<string>forecolor</string>
+		<string>backcolor</string>
+		<string>plot</string>
+		<string>line</string>
+		<string>lineto</string>
+		<string>moveto</string>
+		<string>circle</string>
+		<string>fcircle</string>
+		<string>sleep</string>
+		<string>timer</string>
+		<string>random</string>
+		<string>srand</string>
+		<string>cos</string>
+		<string>sin</string>
+		<string>button</string>
+	</array>
+
+</dict>
+</plist>
